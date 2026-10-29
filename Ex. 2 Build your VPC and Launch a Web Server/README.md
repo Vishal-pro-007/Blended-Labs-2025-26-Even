@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: VISHAL S
+* **Register Number**: 212225220120
+* **Date of Submission**: 29th October 2026
 
 ---
 
@@ -85,13 +85,11 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. **Create VPC:** Set up an isolated AWS network with CIDR `10.0.0.0/16`.
+2. **Create Subnet:** Create a public subnet (`10.0.1.0/24`) and enable public IPv4.
+3. **Enable Internet:** Attach an Internet Gateway and configure the route table with `0.0.0.0/0`.
+4. **Configure Security & EC2:** Allow SSH (22) and HTTP (80), then launch a `t2.micro` Amazon Linux 2 instance with a key pair.
+5. **Deploy Web Server:** Install Apache, create an HTML page, and verify access using the instance’s public IP.
 
 ---
 
@@ -99,19 +97,22 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="EX02 a" src="https://github.com/user-attachments/assets/9d5470b0-5f72-4509-9143-acb2fbbe2ac1" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="EX02 b" src="https://github.com/user-attachments/assets/02afe473-65e5-4dfb-be0f-e468328a55dc" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1280" height="720" alt="EX02c" src="https://github.com/user-attachments/assets/8d2fa67f-b176-49df-b8a7-80c7334abed2" />
+
 
 ---
 
